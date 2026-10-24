@@ -37,6 +37,7 @@ int main(int argc, char **argv) {
   return 0;
 }
 bool turn_left(void){
+  printf("you turned left")
 
 }
 bool turn_right(void){
