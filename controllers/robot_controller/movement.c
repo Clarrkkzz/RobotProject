@@ -38,6 +38,8 @@ int main(int argc, char **argv) {
 }
 test
 test2
+test3 
+test4
 void move_forward_aligned(WbDeviceTag left, WbDeviceTag right, double speed) {
    wb_motor_set_velocity(left, speed);
    wb_motor_set_velocity(right, speed);
