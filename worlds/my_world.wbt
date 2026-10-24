@@ -1,15 +1,16 @@
-#VRML_SIM R2023b utf8
+#VRML_SIM R2025a utf8
 
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
 
 WorldInfo {
 }
 Viewpoint {
-  orientation 0.5637033854140654 -0.534404519688716 -0.6298017962891135 4.300110045132957
-  position -0.11347311416075613 -1.1918807915964655 5.417742131615613
+  orientation 0.535759278108137 -0.5448283353547202 -0.6450768023388009 4.444243656544211
+  position -0.42309741235409604 -1.4190655687703007 1.113533873731308
 }
 TexturedBackground {
 }
@@ -900,4 +901,8 @@ PointLight {
   attenuation 0 0 1
   location 0.17 -0.7 0.4
   radius 80
+}
+E-puck {
+  translation -0.36 -1.07 0
+  rotation 0 0 1 3.14159
 }
